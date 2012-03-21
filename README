@@ -18,7 +18,7 @@ run(0.2, 3.0, 0.004)
 # plot data in red with xmin=0,xmax=100,ymin=-1,ymax=1
 f.plot(x, y, [0, 100, -1, 1], 'red')
 
-# do another run
+# do another run, plot in the same window
 x = []
 y = []
 run(0.2, 3.0, 0.01)
