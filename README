@@ -1,0 +1,30 @@
+Create data in x list and y list:
+
+
+from figure import Figure
+
+# E.g. extend unit5_14 of cs373 in run(..)
+def run(..)
+    for .....
+        .....
+        x.append(myrobot.x)
+        y.append(myrobot.y)
+
+f = Figure()
+
+x = []
+y = []
+run(0.2, 3.0, 0.004)
+# plot data in red with xmin=0,xmax=100,ymin=-1,ymax=1
+f.plot(x, y, [0, 100, -1, 1], 'red')
+
+# do another run
+x = []
+y = []
+run(0.2, 3.0, 0.01)
+# plot data in blue with xmin=0,xmax=100,ymin=-1,ymax=1
+f.plot(x, y, [0, 100, -1, 1], 'blue')
+
+
+
+
