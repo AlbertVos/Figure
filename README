@@ -1,4 +1,7 @@
-Create data in x list and y list:
+Put data in x list and y list for each run and plot the data. You can plot
+multiple data sets with different colors in the same window to compare them.
+With each plot you specify the xmin, xmax, ymin and ymax values which can be
+different or the same for different plots.
 
 
 from figure import Figure
